@@ -6,7 +6,7 @@ const logger = require('morgan');
 var app = express();
 
 // routers
-const categoriesRouter = require('../app/api/v1/categories/router');
+const categoriesRouter = require('./app/api/v1/categories/router');
 const v1 = '/api/v1/cms';
 
 app.use(logger('dev'));
